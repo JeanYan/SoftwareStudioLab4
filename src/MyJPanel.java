@@ -27,7 +27,8 @@ public class MyJPanel extends JPanel implements MouseMotionListener{
 	}
 
 	@Override
-	public void mouseDragged(MouseEvent e) {
+	public void mouseDragged(MouseEvent e) 
+	{
 		// TODO Get mouse dragged position and change suqare's position
 		centerX = e.getX();
 		centerY = e.getY();
